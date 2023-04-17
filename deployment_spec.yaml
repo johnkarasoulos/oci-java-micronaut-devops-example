@@ -21,7 +21,7 @@ spec:
       containers:
         - name: java-micronaut
           # enter the path to your image, be sure to include the correct region prefix
-          image: us-ashburn-1.ocir.io/xxx/xxx/mr-devops/mr-devops-java-micronaut-example:${BUILDRUN_HASH}
+          image: fra.ocir.io/frsxwtjslf35/devops-java-micronaut-example:${BUILDRUN_HASH}
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
